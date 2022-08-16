@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		86380CE028AB862B007FC215 /* P 1 dot 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86380CDF28AB862B007FC215 /* P 1 dot 1.cpp */; };
+		86380CEA28AB8C31007FC215 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86380CE928AB8C31007FC215 /* main.cpp */; };
+		86380CEE28AB8C3B007FC215 /* P1 dot 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86380CE128AB88A2007FC215 /* P1 dot 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		86380CCE28AB84C7007FC215 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		86380CE528AB8C31007FC215 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +36,20 @@
 /* Begin PBXFileReference section */
 		86380CD028AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solutions for BIG C++ by Cay Horstmann and Timothy Budd"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86380CDF28AB862B007FC215 /* P 1 dot 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "P 1 dot 1.cpp"; sourceTree = "<group>"; };
+		86380CE128AB88A2007FC215 /* P1 dot 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "P1 dot 2.cpp"; sourceTree = "<group>"; };
+		86380CE728AB8C31007FC215 /* p1 dot 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "p1 dot 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86380CE928AB8C31007FC215 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		86380CCD28AB84C7007FC215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86380CE428AB8C31007FC215 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				86380CD228AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */,
+				86380CE828AB8C31007FC215 /* p1 dot 2 */,
 				86380CD128AB84C7007FC215 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				86380CD028AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */,
+				86380CE728AB8C31007FC215 /* p1 dot 2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +83,15 @@
 				86380CDF28AB862B007FC215 /* P 1 dot 1.cpp */,
 			);
 			path = "Solutions for BIG C++ by Cay Horstmann and Timothy Budd";
+			sourceTree = "<group>";
+		};
+		86380CE828AB8C31007FC215 /* p1 dot 2 */ = {
+			isa = PBXGroup;
+			children = (
+				86380CE928AB8C31007FC215 /* main.cpp */,
+				86380CE128AB88A2007FC215 /* P1 dot 2.cpp */,
+			);
+			path = "p1 dot 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +114,23 @@
 			productReference = 86380CD028AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */;
 			productType = "com.apple.product-type.tool";
 		};
+		86380CE628AB8C31007FC215 /* p1 dot 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86380CEB28AB8C31007FC215 /* Build configuration list for PBXNativeTarget "p1 dot 2" */;
+			buildPhases = (
+				86380CE328AB8C31007FC215 /* Sources */,
+				86380CE428AB8C31007FC215 /* Frameworks */,
+				86380CE528AB8C31007FC215 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p1 dot 2";
+			productName = "p1 dot 2";
+			productReference = 86380CE728AB8C31007FC215 /* p1 dot 2 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +141,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					86380CCF28AB84C7007FC215 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					86380CE628AB8C31007FC215 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -110,6 +162,7 @@
 			projectRoot = "";
 			targets = (
 				86380CCF28AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */,
+				86380CE628AB8C31007FC215 /* p1 dot 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +173,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				86380CE028AB862B007FC215 /* P 1 dot 1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86380CE328AB8C31007FC215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86380CEA28AB8C31007FC215 /* main.cpp in Sources */,
+				86380CEE28AB8C3B007FC215 /* P1 dot 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +315,22 @@
 			};
 			name = Release;
 		};
+		86380CEC28AB8C31007FC215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86380CED28AB8C31007FC215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +348,15 @@
 			buildConfigurations = (
 				86380CD828AB84C7007FC215 /* Debug */,
 				86380CD928AB84C7007FC215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86380CEB28AB8C31007FC215 /* Build configuration list for PBXNativeTarget "p1 dot 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86380CEC28AB8C31007FC215 /* Debug */,
+				86380CED28AB8C31007FC215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
