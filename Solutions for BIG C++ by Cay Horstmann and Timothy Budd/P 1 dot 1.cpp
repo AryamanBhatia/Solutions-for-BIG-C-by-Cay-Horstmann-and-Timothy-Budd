@@ -16,6 +16,6 @@ int main()
     cout << "What would you like me to do?\n";
     string user_input;
     getline(cin, user_input);
-    cout << "I am sorry, I cannot do that\n";
+    cout << "I am sorry, I cannot do that.\n";
     
 }
