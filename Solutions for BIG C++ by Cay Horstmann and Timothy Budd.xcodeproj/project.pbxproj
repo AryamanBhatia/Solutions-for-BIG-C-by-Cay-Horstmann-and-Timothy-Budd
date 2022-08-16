@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86380CD428AB84C7007FC215 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86380CD328AB84C7007FC215 /* main.cpp */; };
 		86380CE028AB862B007FC215 /* P 1 dot 1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86380CDF28AB862B007FC215 /* P 1 dot 1.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		86380CD028AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solutions for BIG C++ by Cay Horstmann and Timothy Budd"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86380CD328AB84C7007FC215 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		86380CDF28AB862B007FC215 /* P 1 dot 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "P 1 dot 1.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +57,6 @@
 		86380CD228AB84C7007FC215 /* Solutions for BIG C++ by Cay Horstmann and Timothy Budd */ = {
 			isa = PBXGroup;
 			children = (
-				86380CD328AB84C7007FC215 /* main.cpp */,
 				86380CDF28AB862B007FC215 /* P 1 dot 1.cpp */,
 			);
 			path = "Solutions for BIG C++ by Cay Horstmann and Timothy Budd";
@@ -122,7 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86380CD428AB84C7007FC215 /* main.cpp in Sources */,
 				86380CE028AB862B007FC215 /* P 1 dot 1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
